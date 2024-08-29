@@ -27,7 +27,6 @@
     <link rel="stylesheet" href="assets/vendor/apex_chart/apexcharts.css">
     <link rel="stylesheet" href="assets/css/tambahan.css">
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
-
 </head>
 
 <body>
@@ -204,10 +203,10 @@
         <section class="breadcrumb pos-rel bg_img" data-background="assets/img/bg/breadcrumb_bg.jpg">
             <div class="container">
                 <div class="breadcrumb__content">
-                    <h2 class="breadcrumb__title">Informasi Publik</h2>
+                    <h2 class="breadcrumb__title">Transparasi Anggaran</h2>
                     <ul class="breadcrumb__list clearfix">
                         <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-                        <li class="breadcrumb-item">Download</li>
+                        <li class="breadcrumb-item">Transparasi Anggaran</li>
                     </ul>
                 </div>
             </div>
@@ -230,131 +229,236 @@
         </section>
         <!-- breadcrumb end -->
 
-        <!-- coaching start -->
-        <section class="coaching pt-130 pb-120">
+        <!-- coaching single start -->
+        <section class="coaching-single pt-120 pb-130">
             <div class="container">
-                <div class="sec-title sec-title--travel text-center mb-60">
-                    <span class="subtitle">File atau Dokumen yang dapat di download</span>
-                    <h2>Download File atau Dokumen</h2>
-                </div>
-                <section class="coaching-single pt-20 pb-130">
-                    <div class="container">
-                        <div class="row justify-content-center">
-                            <div class="col-12 col-md-4 col-xl-2">
-                                <div class="sidebar-widget">
-                                    <div class="widget">
-                                        <div class="widget-download text-center list-unstyled">
-                                            <a href="#">
-                                                <div class="xb-download">
-                                                    <div class="xb-item--inner">
-                                                        <div class="xb-item--icon">
-                                                            <img src="assets/img/icon/pdf.svg" alt="">
-                                                        </div>
-                                                        <div class="xb-item--bd">
-                                                            <p>Judul File <br> Atau Dokumen yang bisa di unduh </p>
-                                                        </div>
-                                                        <div class="xb-item--size">
-                                                            3.9 KB
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-4 col-xl-2">
-                                <div class="sidebar-widget">
-                                    <div class="widget">
-                                        <div class="widget-download text-center list-unstyled">
-                                            <a href="#">
-                                                <div class="xb-download">
-                                                    <div class="xb-item--inner">
-                                                        <div class="xb-item--icon">
-                                                            <img src="assets/img/icon/pdf.svg" alt="">
-                                                        </div>
-                                                        <div class="xb-item--bd">
-                                                            <p>Judul File <br> Atau Dokumen yang bisa di unduh </p>
-                                                        </div>
-                                                        <div class="xb-item--size">
-                                                            3.9 KB
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-4 col-xl-2">
-                                <div class="sidebar-widget">
-                                    <div class="widget">
-                                        <div class="widget-download text-center list-unstyled">
-                                            <a href="#">
-                                                <div class="xb-download">
-                                                    <div class="xb-item--inner">
-                                                        <div class="xb-item--icon">
-                                                            <img src="assets/img/icon/pdf.svg" alt="">
-                                                        </div>
-                                                        <div class="xb-item--bd">
-                                                            <p>Judul File <br> Atau Dokumen yang bisa di unduh </p>
-                                                        </div>
-                                                        <div class="xb-item--size">
-                                                            3.9 KB
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-12 col-md-4 col-xl-2">
-                                <div class="sidebar-widget">
-                                    <div class="widget">
-                                        <div class="widget-download text-center list-unstyled">
-                                            <a href="#">
-                                                <div class="xb-download">
-                                                    <div class="xb-item--inner">
-                                                        <div class="xb-item--icon">
-                                                            <img src="assets/img/icon/pdf.svg" alt="">
-                                                        </div>
-                                                        <div class="xb-item--bd">
-                                                            <p>Judul File <br> Atau Dokumen yang bisa di unduh </p>
-                                                        </div>
-                                                        <div class="xb-item--size">
-                                                            3.9 KB
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="pagination_wrap pt-90">
-                                <ul>
-                                    <li><a href="#"><i class="far fa-long-arrow-left"></i></a></li>
-                                    <li><a href="#" class="current_page">01</a></li>
-                                    <li><a href="#">02</a></li>
-                                    <li><a href="#"><i class="fal fa-ellipsis-h"></i></a></li>
-                                    <li><a href="#">08</a></li>
-                                    <li><a href="#"><i class="far fa-long-arrow-right"></i></a></li>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="sidebar-widget">
+                            <div class="widget">
+                                <ul class="widget-category country-widget list-unstyled" id="myTab" role="tablist">
+                                    <li class="nav-item" role="presentation">
+                                        <a href="" class="nav-link active" id="xbc-apbdi" data-bs-toggle="tab"
+                                        data-bs-target="#xbc-tab-apbdi" type="button" role="tab" aria-controls="xbc-tab-apbdi"
+                                        aria-selected="true">APBD Induk
+                                        </a>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <a href="" class="nav-link" id="xbc-apndp" data-bs-toggle="tab"
+                                        data-bs-target="#xbc-tab-apndp" type="button" role="tab" aria-controls="xbc-tab-apndp"
+                                        aria-selected="true">APBD Perubahan
+                                        </a>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <a href="" class="nav-link" id="xbc-apbdes" data-bs-toggle="tab"
+                                        data-bs-target="#xbc-tab-apbdes" type="button" role="tab" aria-controls="xbc-tab-apbdes"
+                                        aria-selected="true">APBDes
+                                        </a>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <a href="" class="nav-link" id="xbc-ipkd" data-bs-toggle="tab"
+                                        data-bs-target="#xbc-tab-ipkd" type="button" role="tab" aria-controls="xbc-tab-ipkd"
+                                        aria-selected="true">IPKD
+                                        </a>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <a href="" class="nav-link" id="xbc-lppd" data-bs-toggle="tab"
+                                        data-bs-target="#xbc-tab-lppd" type="button" role="tab" aria-controls="xbc-tab-lppd"
+                                        aria-selected="true">LPPD
+                                        </a>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                </section>
+                    <div class="col-lg-8">
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane animated fadeInUp show active" id="xbc-tab-apbdi" role="tabpanel" aria-labelledby="xbc-apbdi" tabindex="0">
+                                <div class="row">
+                                    <div class="d-flex" style="justify-content: space-between; align-items: center; margin-bottom: 30px;">
+                                        <div class="title">
+                                            <h4>APBD Induk Pemerintah Daerah Kabupaten Ogan Ilir</h4>
+                                        </div>
+                                        <div class="header__language">
+                                            <ul>
+                                                <li><a href="#!" class="lang-btn">
+                                                    <div class="flag"><img src="assets/img/logo/fav.svg" alt=""></div>
+                                                    Pilih Tahun
+                                                    <div class="arrow_down"><img src="assets/img/icon/arrow_down.svg" alt=""></div>
+                                                </a>
+                                                    <ul class="lang_sub_list">
+                                                        <li><a href="#">2024</a></li>
+                                                        <li><a href="#">2023</a></li>
+                                                        <li><a href="#">2022</a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 col-lg-5">
+                                        <img src="assets/img/web/slider/rkpd.png" alt="">
+                                    </div>
+                                    <div class="col-12 col-lg-7">
+                                        <span>Deskripsi Laporan Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, quae!</span>
+                                        <div class="xb-item--btn mt-20">
+                                            <button class="btn btn-primary">Unduh Dokumen<span><img src="assets/img/icon/arrow-right.svg" alt=""></span></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane animated fadeInUp" id="xbc-tab-apndp" role="tabpanel" aria-labelledby="xbc-apndp" tabindex="0">
+                                <div class="row">
+                                    <div class="d-flex" style="justify-content: space-between; align-items: center; margin-bottom: 30px;">
+                                        <div class="title">
+                                            <h4>ABPD Perubahan Pemerintah Daerah Kabupaten Ogan Ilir</h4>
+                                        </div>
+                                        <div class="header__language">
+                                            <ul>
+                                                <li><a href="#!" class="lang-btn">
+                                                    <div class="flag"><img src="assets/img/logo/fav.svg" alt=""></div>
+                                                    Pilih Tahun
+                                                    <div class="arrow_down"><img src="assets/img/icon/arrow_down.svg" alt=""></div>
+                                                </a>
+                                                    <ul class="lang_sub_list">
+                                                        <li><a href="#">2024</a></li>
+                                                        <li><a href="#">2023</a></li>
+                                                        <li><a href="#">2022</a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 col-lg-5">
+                                        <img src="assets/img/web/slider/rpjmd.png" alt="">
+                                    </div>
+                                    <div class="col-12 col-lg-7">
+                                        <span>Deskripsi Laporan Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, quae!</span>
+                                        <div class="xb-item--btn mt-20">
+                                            <button class="btn btn-primary">Unduh Dokumen<span><img src="assets/img/icon/arrow-right.svg" alt=""></span></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane animated fadeInUp" id="xbc-tab-apbdes" role="tabpanel" aria-labelledby="xbc-apbdes" tabindex="0">
+                                <div class="row">
+                                    <div class="d-flex" style="justify-content: space-between; align-items: center; margin-bottom: 30px;">
+                                        <div class="title">
+                                            <h4>APBDes Pemerintah Daerah Kabupaten Ogan Ilir</h4>
+                                        </div>
+                                        <div class="header__language">
+                                            <ul>
+                                                <li><a href="#!" class="lang-btn">
+                                                    <div class="flag"><img src="assets/img/logo/fav.svg" alt=""></div>
+                                                    Pilih Tahun
+                                                    <div class="arrow_down"><img src="assets/img/icon/arrow_down.svg" alt=""></div>
+                                                </a>
+                                                    <ul class="lang_sub_list">
+                                                        <li><a href="#">2024</a></li>
+                                                        <li><a href="#">2023</a></li>
+                                                        <li><a href="#">2022</a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 col-lg-5">
+                                        <img src="assets/img/web/slider/lkjip.png" alt="">
+                                    </div>
+                                    <div class="col-12 col-lg-7">
+                                        <span>Deskripsi Laporan Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, quae!</span>
+                                        <div class="xb-item--btn mt-20">
+                                            <button class="btn btn-primary">Unduh Dokumen<span><img src="assets/img/icon/arrow-right.svg" alt=""></span></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane animated fadeInUp" id="xbc-tab-ipkd" role="tabpanel" aria-labelledby="xbc-ipkd" tabindex="0">
+                                <div class="row">
+                                    <div class="d-flex" style="justify-content: space-between; align-items: center; margin-bottom: 30px;">
+                                        <div class="title">
+                                            <h4>IPKD Pemerintah Daerah Kabupaten Ogan Ilir</h4>
+                                        </div>
+                                        <div class="header__language">
+                                            <ul>
+                                                <li><a href="#!" class="lang-btn">
+                                                    <div class="flag"><img src="assets/img/logo/fav.svg" alt=""></div>
+                                                    Pilih Tahun
+                                                    <div class="arrow_down"><img src="assets/img/icon/arrow_down.svg" alt=""></div>
+                                                </a>
+                                                    <ul class="lang_sub_list">
+                                                        <li><a href="#">2024</a></li>
+                                                        <li><a href="#">2023</a></li>
+                                                        <li><a href="#">2022</a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 col-lg-5">
+                                        <img src="assets/img/web/slider/lkjip.png" alt="">
+                                    </div>
+                                    <div class="col-12 col-lg-7">
+                                        <span>Deskripsi Laporan Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, quae!</span>
+                                        <div class="xb-item--btn mt-20">
+                                            <button class="btn btn-primary">Unduh Dokumen<span><img src="assets/img/icon/arrow-right.svg" alt=""></span></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane animated fadeInUp" id="xbc-tab-lppd" role="tabpanel" aria-labelledby="xbc-lppd" tabindex="0">
+                                <div class="row">
+                                    <div class="d-flex" style="justify-content: space-between; align-items: center; margin-bottom: 30px;">
+                                        <div class="title">
+                                            <h4>APBDes Pemerintah Daerah Kabupaten Ogan Ilir</h4>
+                                        </div>
+                                        <div class="header__language">
+                                            <ul>
+                                                <li><a href="#!" class="lang-btn">
+                                                    <div class="flag"><img src="assets/img/logo/fav.svg" alt=""></div>
+                                                    Pilih Tahun
+                                                    <div class="arrow_down"><img src="assets/img/icon/arrow_down.svg" alt=""></div>
+                                                </a>
+                                                    <ul class="lang_sub_list">
+                                                        <li><a href="#">2024</a></li>
+                                                        <li><a href="#">2023</a></li>
+                                                        <li><a href="#">2022</a></li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12 col-lg-5">
+                                        <img src="assets/img/web/slider/lkjip.png" alt="">
+                                    </div>
+                                    <div class="col-12 col-lg-7">
+                                        <span>Deskripsi Laporan Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde, quae!</span>
+                                        <div class="xb-item--btn mt-20">
+                                            <button class="btn btn-primary">Unduh Dokumen<span><img src="assets/img/icon/arrow-right.svg" alt=""></span></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
-        <!-- coaching end -->
+        <!-- coaching single end -->
 
        </main>
 
-       <!-- footer start -->
-       <footer class="site-footer gray-bg footer__copyright mt-50 pt-90">
+    <!-- footer start -->
+    <footer class="site-footer gray-bg footer__copyright mt-50 pt-90">
         <div class="container">
             <div class="row mt-none-30 pb-60">
                 <div class="col-lg-3 mt-30 col-md-6 footer__custom-col">
@@ -377,27 +481,27 @@
                             <li><a href="#!"><span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13"
                                                         viewBox="0 0 13 13" fill="none">
                                     <path d="M6.5 0C6.72067 3.49437 9.5056 6.27934 13 6.5C9.5056 6.72067 6.72067 9.5056 6.5 13C6.27934 9.5056 3.49437 6.72067 0 6.5C3.49437 6.27934 6.27934 3.49437 6.5 0Z"
-                                          fill="#B1B4BA"/>
+                                            fill="#B1B4BA"/>
                                     </svg></span>Tentang</a></li>
                             <li><a href="#!"><span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13"
                                                         viewBox="0 0 13 13" fill="none">
                                     <path d="M6.5 0C6.72067 3.49437 9.5056 6.27934 13 6.5C9.5056 6.72067 6.72067 9.5056 6.5 13C6.27934 9.5056 3.49437 6.72067 0 6.5C3.49437 6.27934 6.27934 3.49437 6.5 0Z"
-                                          fill="#B1B4BA"/>
+                                            fill="#B1B4BA"/>
                                     </svg></span>Kepala Daerah</a></li>
                             <li><a href="#!"><span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13"
                                                         viewBox="0 0 13 13" fill="none">
                                     <path d="M6.5 0C6.72067 3.49437 9.5056 6.27934 13 6.5C9.5056 6.72067 6.72067 9.5056 6.5 13C6.27934 9.5056 3.49437 6.72067 0 6.5C3.49437 6.27934 6.27934 3.49437 6.5 0Z"
-                                          fill="#B1B4BA"/>
+                                            fill="#B1B4BA"/>
                                     </svg></span>Struktur Organisasi</a></li>
                             <li><a href="#!"><span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13"
                                                         viewBox="0 0 13 13" fill="none">
                                     <path d="M6.5 0C6.72067 3.49437 9.5056 6.27934 13 6.5C9.5056 6.72067 6.72067 9.5056 6.5 13C6.27934 9.5056 3.49437 6.72067 0 6.5C3.49437 6.27934 6.27934 3.49437 6.5 0Z"
-                                          fill="#B1B4BA"/>
+                                            fill="#B1B4BA"/>
                                     </svg></span>Tugas dan Fungsi</a></li>
                             <li><a href="#!"><span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13"
                                                         viewBox="0 0 13 13" fill="none">
                                     <path d="M6.5 0C6.72067 3.49437 9.5056 6.27934 13 6.5C9.5056 6.72067 6.72067 9.5056 6.5 13C6.27934 9.5056 3.49437 6.72067 0 6.5C3.49437 6.27934 6.27934 3.49437 6.5 0Z"
-                                          fill="#B1B4BA"/>
+                                            fill="#B1B4BA"/>
                                     </svg></span>Penghargaan</a></li>
                         </ul>
                     </div>
@@ -409,22 +513,22 @@
                             <li><a href="#!"><span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13"
                                                         viewBox="0 0 13 13" fill="none">
                                     <path d="M6.5 0C6.72067 3.49437 9.5056 6.27934 13 6.5C9.5056 6.72067 6.72067 9.5056 6.5 13C6.27934 9.5056 3.49437 6.72067 0 6.5C3.49437 6.27934 6.27934 3.49437 6.5 0Z"
-                                          fill="#B1B4BA"/>
+                                            fill="#B1B4BA"/>
                                     </svg></span>Lapor</a></li>
                             <li><a href="#!"><span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13"
                                                         viewBox="0 0 13 13" fill="none">
                                     <path d="M6.5 0C6.72067 3.49437 9.5056 6.27934 13 6.5C9.5056 6.72067 6.72067 9.5056 6.5 13C6.27934 9.5056 3.49437 6.72067 0 6.5C3.49437 6.27934 6.27934 3.49437 6.5 0Z"
-                                          fill="#B1B4BA"/>
+                                            fill="#B1B4BA"/>
                                     </svg></span>Satu Data</a></li>
                             <li><a href="#!"><span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13"
                                                         viewBox="0 0 13 13" fill="none">
                                     <path d="M6.5 0C6.72067 3.49437 9.5056 6.27934 13 6.5C9.5056 6.72067 6.72067 9.5056 6.5 13C6.27934 9.5056 3.49437 6.72067 0 6.5C3.49437 6.27934 6.27934 3.49437 6.5 0Z"
-                                          fill="#B1B4BA"/>
+                                            fill="#B1B4BA"/>
                                     </svg></span>JDIH</a></li>
                             <li><a href="#!"><span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13"
                                                         viewBox="0 0 13 13" fill="none">
                                     <path d="M6.5 0C6.72067 3.49437 9.5056 6.27934 13 6.5C9.5056 6.72067 6.72067 9.5056 6.5 13C6.27934 9.5056 3.49437 6.72067 0 6.5C3.49437 6.27934 6.27934 3.49437 6.5 0Z"
-                                          fill="#B1B4BA"/>
+                                            fill="#B1B4BA"/>
                                     </svg></span>PPID</a></li>
                         </ul>
                     </div>
@@ -436,33 +540,33 @@
                             <li><a href="#!"><span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13"
                                                         viewBox="0 0 13 13" fill="none">
                                     <path d="M6.5 0C6.72067 3.49437 9.5056 6.27934 13 6.5C9.5056 6.72067 6.72067 9.5056 6.5 13C6.27934 9.5056 3.49437 6.72067 0 6.5C3.49437 6.27934 6.27934 3.49437 6.5 0Z"
-                                          fill="#B1B4BA"/>
+                                            fill="#B1B4BA"/>
                                     </svg></span>Profil PPID</a></li>
                             <li><a href="#!"><span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13"
                                                         viewBox="0 0 13 13" fill="none">
                                     <path d="M6.5 0C6.72067 3.49437 9.5056 6.27934 13 6.5C9.5056 6.72067 6.72067 9.5056 6.5 13C6.27934 9.5056 3.49437 6.72067 0 6.5C3.49437 6.27934 6.27934 3.49437 6.5 0Z"
-                                          fill="#B1B4BA"/>
+                                            fill="#B1B4BA"/>
                                     </svg></span>Maklumat Layanan</a></li>
                             <li><a href="#!"><span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13"
                                                         viewBox="0 0 13 13" fill="none">
                                     <path d="M6.5 0C6.72067 3.49437 9.5056 6.27934 13 6.5C9.5056 6.72067 6.72067 9.5056 6.5 13C6.27934 9.5056 3.49437 6.72067 0 6.5C3.49437 6.27934 6.27934 3.49437 6.5 0Z"
-                                          fill="#B1B4BA"/>
+                                            fill="#B1B4BA"/>
                                     </svg></span>Standar Layanan</a></li>
                             <li><a href="#!"><span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13"
                                                         viewBox="0 0 13 13" fill="none">
                                     <path d="M6.5 0C6.72067 3.49437 9.5056 6.27934 13 6.5C9.5056 6.72067 6.72067 9.5056 6.5 13C6.27934 9.5056 3.49437 6.72067 0 6.5C3.49437 6.27934 6.27934 3.49437 6.5 0Z"
-                                          fill="#B1B4BA"/>
+                                            fill="#B1B4BA"/>
                                     </svg></span>Regulasi</a></li>
                             <li><a href="#!"><span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="13"
                                                         viewBox="0 0 13 13" fill="none">
                                     <path d="M6.5 0C6.72067 3.49437 9.5056 6.27934 13 6.5C9.5056 6.72067 6.72067 9.5056 6.5 13C6.27934 9.5056 3.49437 6.72067 0 6.5C3.49437 6.27934 6.27934 3.49437 6.5 0Z"
-                                          fill="#B1B4BA"/>
+                                            fill="#B1B4BA"/>
                                     </svg></span>Formulir Pemohonan</a></li>
                         </ul>
                     </div>
                 </div>
             </div>
-            <div class="footer__copyright ul_li_between ft_bg">
+            <div class="footer__copyrightst ul_li_between ft_bg">
                 <div class="footer__copyright-text mt-15">
                     Copyright © 2024 Developed by Diskominfo Ogan Ilir All rights reserved.
                 </div>
@@ -470,12 +574,21 @@
                     <img src="assets/img/aplikasi_icon/lisensi.png" style="height: 30px !important;" alt="">
                     <img src="assets/img/aplikasi_icon/oganilirbangkit.png" style="height: 30px !important; margin-left: 10px;" alt="">
                 </div>
+                <!-- <div class="mt-20">
+                    <ul class="ul_li gap-3">
+                        <li><a href="#" class="text-dark"><i class="ph-bold ph-x-logo"></i></a></li>
+                        <li><a href="#" class="text-dark"><i class="ph-bold ph-facebook-logo"></i></a></li>
+                        <li><a href="#" class="text-dark"><i class="ph-bold ph-instagram-logo"></i></a></li>
+                        <li><a href="#" class="text-dark"><i class="ph-bold ph-youtube-logo"></i></a></li>
+                        <li><a href="#" class="text-dark"><i class="ph-bold ph-tiktok-logo"></i></a></li>
+                    </ul>
+                </div> -->
             </div>
         </div>
     </footer>
     <!-- footer start -->
 
-</div>
+    </div>
 
 <!-- jquery include -->
 <script src="assets/js/jquery-3.7.1.min.js"></script>
@@ -498,24 +611,7 @@
 <script src="assets/js/tambahan.js"></script>
 <script src="assets/js/weather.js"></script>
 <script type="text/javascript" src="https://widget.kominfo.go.id/gpr-widget-kominfo.min.js"></script>
-<script
-src="https://website-widgets.pages.dev/dist/sienna.min.js"
-defer
-></script>
-
-<script>
-    var tw = new Date();
-    if (tw.getTimezoneOffset() == 0) (a=tw.getTime() + ( 7 *60*60*1000))
-    else (a=tw.getTime());
-    tw.setTime(a);
-    var tahun= tw.getFullYear ();
-    var hari= tw.getDay ();
-    var bulan= tw.getMonth ();
-    var tanggal= tw.getDate ();
-    var hariarray=new Array("Minggu,","Senin,","Selasa,","Rabu,","Kamis,","Jum'at,","Sabtu,");
-    var bulanarray=new Array("Januari","Februari","Maret","April","Mei","Juni","Juli","Agustus","September","Oktober","Nopember","Desember");
-    document.getElementById("tanggalwaktu").innerHTML = hariarray[hari]+" "+tanggal+" "+bulanarray[bulan]+" "+tahun+" | "+" Jam " + ((tw.getHours() < 10) ? "0" : "") + tw.getHours() + ":" + ((tw.getMinutes() < 10)? "0" : "") + tw.getMinutes() + (" WIB ");
-</script>
+<script src="https://website-widgets.pages.dev/dist/sienna.min.js" defer></script>
 
 <script>
     $('.exm_slick').slick({
@@ -562,5 +658,4 @@ defer
         });
 </script>
 </body>
-
 </html>

@@ -26,7 +26,8 @@
     <link rel="stylesheet" href="assets/vendor/phosphor_icons/style.css">
     <link rel="stylesheet" href="assets/vendor/apex_chart/apexcharts.css">
     <link rel="stylesheet" href="assets/css/tambahan.css">
-    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link rel="stylesheet" href="assets/exmaple/style.css">
+    <link rel="stylesheet" href="assets/exmaple/leaflet_1.3.1.css">
 
 </head>
 
@@ -444,47 +445,36 @@
                 <div class="row mb-30 align-items-center">
                     <div class="col-lg-6">
                         <div class="sec-title_cs">
-                            <h2 class="mb-20 wow skewIn">Statistik Data <br><span> Penduduk</span>
+                            <h2 class="mb-20 wow skewIn">Kabupaten Ogan Ilir </span>
                             </h2>
                         </div>
                     </div>
                     <div class="col-lg-5 offset-lg-1">
                         <div class="sec-title mb-20">
-                            <p><span class="title_spbe text-dark fw-bold">Kondisi Penduduk di Kabupaten Ogan Ilir berdasarkan data Statistik dari Badan Pusat Statistik Kabupaten Ogan Ilir </p>
+                            <p><span class="title_spbe text-dark fw-bold">Lebih Dekat tentang Pemerintah Daerah Kabupaten Ogan Ilir</p>
                         </div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-lg-4">
                         <div class="sidebar-widget">
-                            <div class="widgets">
-                                <ul class="widgets-category country-widget list-unstyled" id="myTab" role="tablist">
+                            <div class="widget">
+                                <ul class="widget-category country-widget list-unstyled" style="height: 450px; overflow-y: scroll;" id="myTab" role="tablist">
                                     <li class="nav-item" role="presentation">
                                         <a href="" class="nav-link active" id="xbc-pdd" data-bs-toggle="tab"
                                         data-bs-target="#xbc-tab-pdd" type="button" role="tab" aria-controls="xbc-tab-pdd"
-                                        aria-selected="true"><img src="assets/img/web/bg_kependudukan.svg" alt="">
+                                        aria-selected="true">Kabupaten Ogan Ilir
                                         </a>
                                     </li>
                                     <li class="nav-item" role="presentation">
-                                        <a href="" href="" class="nav-link" id="xbc-jk" data-bs-toggle="tab"
+                                        <a href="" class="nav-link" id="xbc-jk" data-bs-toggle="tab"
                                         data-bs-target="#xbc-tab-jk" type="button" role="tab" aria-controls="xbc-tab-jk"
-                                        aria-selected="true"><img src="assets/img/web/gender.svg" alt="">
-                                    </a>
+                                        aria-selected="true">Wilayah & Kependudukan</a>
                                     </li>
                                     <li class="nav-item" role="presentation">
-                                        <a href="" href="" class="nav-link" id="xbc-edu" data-bs-toggle="tab"
+                                        <a href="" class="nav-link" id="xbc-edu" data-bs-toggle="tab"
                                         data-bs-target="#xbc-tab-edu" type="button" role="tab" aria-controls="xbc-tab-edu"
-                                        aria-selected="true"><img src="assets/img/web/edu.svg" alt=""></a>
-                                    </li>
-                                    <li class="nav-item" role="presentation">
-                                        <a href="" href="" class="nav-link" id="xbc-jobs" data-bs-toggle="tab"
-                                        data-bs-target="#xbc-tab-jobs" type="button" role="tab" aria-controls="xbc-tab-jobs"
-                                        aria-selected="true"><img src="assets/img/web/job.svg" alt=""></a>
-                                    </li>
-                                    <li class="nav-item" role="presentation">
-                                        <a href="" href="" class="nav-link" id="xbc-kesdm" data-bs-toggle="tab"
-                                        data-bs-target="#xbc-tab-kesdm" type="button" role="tab" aria-controls="xbc-tab-kesdm"
-                                        aria-selected="true"><img src="assets/img/web/extrm.svg" alt=""></a>
+                                        aria-selected="true">Sarana Transportasi</a>
                                     </li>
                                 </ul>
                             </div>
@@ -493,34 +483,110 @@
                     <div class="col-lg-8">
                         <div class="tab-content" id="myTabContent">
                             <div class="tab-pane animated fadeInUp show active" id="xbc-tab-pdd" role="tabpanel" aria-labelledby="xbc-pdd" tabindex="0">
-                                <div class="row statistikChart">
-                                    <div id="chartPopulasi"></div>
+                                <div class="row">
+                                    <style>
+                                        video.video_profil {
+                                            width: 100%;
+                                            height: 100%;
+                                            border-radius: 12px;
+                                            border: 5px solid #EDF3F5;
+                                            padding: 0;
+                                        }
+                                    </style>
+                                    <video class="video_profil" controls>
+                                        <source src="assets/video/Profil_Ogan_Ilir.mp4" type="video/mp4">
+                                        <source src="assets/video/Profil_Ogan_Ilir.ogg" type="video/ogg">
+                                      Your browser does not support the video tag.
+                                      </video>
                                 </div>
                             </div>
                             <div class="tab-pane animated fadeInUp" id="xbc-tab-jk" role="tabpanel" aria-labelledby="xbc-jk" tabindex="0">
-                                <div class="row statistikChart">
-                                    <div id="chartJK"></div>
+                                <div class="row">
+                                    <div class="col-12 col-lg-8">
+                                        <div id="petaIdl"></div>
+                                    </div>
+                                    <div class="col-lg-4">
+                                        <div id="card" class="card mb-4 tsigourof_ben6oqe">
+                                            <a class="card-switch" href="#">
+                                            <h2 class="card-title">Kabupaten Ogan Ilir</h2>
+                                            <img class="card-img" src="assets/img/web/oganilirkab.jpg" alt="OganIlirBangkit">
+                                            <div class="card-body">
+                                                <div class="card-subtitle">
+                                                    <p>
+                                                        Ogan Ilir adalah salah satu kabupaten di Provinsi Sumatera Selatan, Indonesia. Ibu kota Ogan Ilir berada di kecamatan Indralaya. Pada pertengahan tahun 2024, jumlah penduduk kabupaten ini sebanyak 443.361 jiwa
+                                                    </p><br>
+                                                    <p>
+                                                        Sebagian besar penduduk Kabupaten Ogan Ilir adalah beretnis Pegagan. Mayoritas Populasi penduduk di Kabupaten Ogan Ilir berasal dari Suku Melayu dengan 3 (tiga) sub-suku yaitu: Ogan, Penesak, & Pegagan. Lainnya yaitu Belida, Jawa, Rambang dan suku lainnya. Keberagaman suku bangsa di Kabupaten Ogan Ilir memengaruhi perbedaan budaya dan adat istiadat masyarakat. Berikut adalah besaran penduduk Kabupaten Ogan Ilir berdasarkan suku bangsa;
+                                                    </p>
+                                                </div>
+                                                <ul class="card-list-group">
+                                                    <li>
+                                                        <span class="card-list-group-item">Data </span>
+                                                        Populasi
+                                                    </li>
+                                                </ul>
+                                                <div class="card-text">
+                                                    <div class="table-responsive">
+                                                        <table>
+                                                            <tbody>
+                                                                <tr>
+                                                                    <td><i class="fa fa-map me-1"></i>Luas Wilayah</td>
+                                                                    <td>:</td>
+                                                                    <td>2.302,86 Km2</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td><i class="fa fa-home me-1"></i>Jumlah Kecamatan</td>
+                                                                    <td>:</td>
+                                                                    <td>16</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td><i class="fa fa-home me-1"></i>Jumlah Desa/Kel</td>
+                                                                    <td>:</td>
+                                                                    <td>227/14</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td><i class="fa fa-users me-1"></i>Jumlah Populasi</td>
+                                                                    <td>:</td>
+                                                                    <td>443.361 Jiwa</td>
+                                                                </tr>
+                                                                <tr>
+                                                                    <td><i class="fa fa-user me-1"></i>Kepadatan Penduduk</td>
+                                                                    <td>:</td>
+                                                                    <td>191 Jiwa/Km2</td>
+                                                                </tr>
+                                                            </tbody>
+                                                        </table>
+                                                    </div>
+                                                </div>
+                                            </div><!-- /.card-body -->
+                                            </a><!-- /.card-switch -->
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                             <div class="tab-pane animated fadeInUp" id="xbc-tab-edu" role="tabpanel" aria-labelledby="xbc-edu" tabindex="0">
-                                <div class="row statistikChart">
-                                    <div id="svg-sankey" style="border: 0px !important;"></div>
-                                </div>
-                            </div>
-                            <div class="tab-pane animated fadeInUp" id="xbc-tab-jobs" role="tabpanel" aria-labelledby="xbc-jobs" tabindex="0">
-                                <div class="row statistikChart">
-                                    <div id="chartJobs"></div>
-                                </div>
-                            </div>
-                            <div class="tab-pane animated fadeInUp" id="xbc-tab-kesdm" role="tabpanel" aria-labelledby="xbc-kesdm" tabindex="0">
-                                <div class="row statistikChart">
-                                    <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus, nam.</p> -->
-                                    
-                                    <div id="charte"></div>
+                                <div class="row">
+                                    <div class="row">
+                                        <style>
+                                            video.video_profil {
+                                                width: 100%;
+                                                height: 100%;
+                                                border-radius: 12px;
+                                                border: 5px solid #EDF3F5;
+                                                padding: 0;
+                                            }
+                                        </style>
+                                        <video class="video_profil" controls>
+                                            <source src="assets/video/transenai.mp4" type="video/mp4">
+                                            <source src="assets/video/transenai.ogg" type="video/ogg">
+                                          Your browser does not support the video tag.
+                                          </video>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+
                 </div>
             </div>
         </section>
@@ -1366,7 +1432,7 @@
 </div>
 
 <!-- jquery include -->
-<script src="assets/js/jquery-3.7.1.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="assets/js/bootstrap.bundle.min.js"></script>
 <script src="assets/js/swiper.min.js"></script>
 <script src="assets/js/wow.min.js"></script>
@@ -1387,21 +1453,10 @@
 <script src="assets/js/weather.js"></script>
 <script type="text/javascript" src="https://widget.kominfo.go.id/gpr-widget-kominfo.min.js"></script>
 <script src="https://website-widgets.pages.dev/dist/sienna.min.js" defer></script>
-<script src="https://code.responsivevoice.org/responsivevoice.js?key=EPuNa77o"></script>
-
-<script>
-    var tw = new Date();
-    if (tw.getTimezoneOffset() == 0) (a=tw.getTime() + ( 7 *60*60*1000))
-    else (a=tw.getTime());
-    tw.setTime(a);
-    var tahun= tw.getFullYear ();
-    var hari= tw.getDay ();
-    var bulan= tw.getMonth ();
-    var tanggal= tw.getDate ();
-    var hariarray=new Array("Minggu,","Senin,","Selasa,","Rabu,","Kamis,","Jum'at,","Sabtu,");
-    var bulanarray=new Array("Januari","Februari","Maret","April","Mei","Juni","Juli","Agustus","September","Oktober","Nopember","Desember");
-    document.getElementById("tanggalwaktu").innerHTML = hariarray[hari]+" "+tanggal+" "+bulanarray[bulan]+" "+tahun+" | "+" Jam " + ((tw.getHours() < 10) ? "0" : "") + tw.getHours() + ":" + ((tw.getMinutes() < 10)? "0" : "") + tw.getMinutes() + (" WIB ");
-</script>
+<!-- <script src="https://code.responsivevoice.org/responsivevoice.js?key=EPuNa77o"></script> -->
+<!-- Leaflet JS -->
+<script src="assets/exmaple/leaftlet_1.3.1.js"></script>
+<script src="assets/exmaple/map.js"></script>
 
 <script>
     $('.exm_slick').slick({
@@ -1447,6 +1502,7 @@
         ]
         });
 </script>
+
 </body>
 
 </html>
